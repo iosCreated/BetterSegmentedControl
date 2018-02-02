@@ -174,7 +174,7 @@ import UIKit
         }
     }
     /// The indicator view's background color
-    @IBInspectable fileprivate(set) public var indicatorViewBackgroundColor: UIColor? {
+    @IBInspectable public var indicatorViewBackgroundColor: UIColor? {
         get {
             return indicatorView.backgroundColor
         }
